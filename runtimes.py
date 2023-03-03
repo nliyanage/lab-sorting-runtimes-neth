@@ -21,7 +21,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # perform the runtime tests
-    print("| ---- |  `timsort`  |  `merge_sorted`  |  `quick_sorted`  ")
+    print("| ------------- | `timsort` | `merge_sorted` | `quick_sorted` ")
     for x in range(0, args.max_x+1):
 
         if args.input == 'random':
